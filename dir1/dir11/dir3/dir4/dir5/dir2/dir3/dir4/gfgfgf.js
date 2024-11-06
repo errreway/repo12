@@ -4,14 +4,12 @@
 function greet(name) {
     return `Hello, ${name}!`;
   }
-  
+  console.log(greet("World")); // Output: Hello, World!
+
   console.log(greet("World")); // Output: Hello, World!
   
-  // 2. Array Manipulation:
-  const numbers = [1, 2, 3, 4, 5];
   
-  // Filter for even numbers:
-  const evenNumbers = numbers.filter(num => num % 2 === 0);
+  console.log(greet("World")); // Output: Hello, World!
   
   console.log(evenNumbers); // Output: [2, 4]
   
