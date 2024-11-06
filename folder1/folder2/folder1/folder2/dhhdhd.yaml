@@ -1,0 +1,45 @@
+# This is an example YAML file
+
+# Top-level key: "project"
+project:
+  # Nested key: "name"
+  name: My Awesome Project
+  # Nested key: "description"
+  description: A brief description of the project
+  # Nested key: "version"
+  version: 1.0.0
+
+# Top-level key: "author"
+author:
+  # Nested key: "name"
+  name: John Doe
+  # Nested key: "email"
+  email: john.doe@example.com
+
+# Top-level key: "dependencies"
+dependencies:
+  # List of dependencies
+  - python
+  - numpy
+  - pandas
+
+# Top-level key: "settings"
+settings:
+  # Nested key: "debug"
+  debug: true
+  # Nested key: "log_level"
+  log_level: info
+
+# Top-level key: "database"
+database:
+  # Nested key: "host"
+  host: localhost
+  # Nested key: "port"
+  port: 5432
+  # Nested key: "user"
+  user: my_user
+  # Nested key: "password"
+  password: my_password
+  # Nested key: "database"
+  database: my_database
+
