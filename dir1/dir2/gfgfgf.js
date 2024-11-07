@@ -6,13 +6,18 @@ function greet(name) {
   }
   
   console.log(greet("World")); // Output: Hello, World!
-  
-  // 2. Array Manipulation:
   const numbers = [1, 2, 3, 4, 5];
   
   // Filter for even numbers:
   const evenNumbers = numbers.filter(num => num % 2 === 0);
-  
+  addEventListenerq
+
+  addEventListenera
+  addEventListeneraa
+  addEventListeneraaa
+  addEventListeneraaaa
+
+
   console.log(evenNumbers); // Output: [2, 4]
   
   // 3. Object Creation:
@@ -21,10 +26,16 @@ function greet(name) {
     lastName: "Doe",
     age: 30
   };
+  4
+  5
+  5
+  6
+  66
+  6
+
   
-  console.log(person.firstName); // Output: John
+  console.log(person.firstName);
   
-  // 4. Asynchronous Operations (using Promises):
   function fetchUserData() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {

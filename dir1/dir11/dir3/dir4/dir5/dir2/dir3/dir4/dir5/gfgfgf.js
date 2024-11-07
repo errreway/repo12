@@ -15,13 +15,6 @@ function greet(name) {
   
   console.log(evenNumbers); // Output: [2, 4]
   
-  // 3. Object Creation:
-  const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 30
-  };
-  
   console.log(person.firstName); // Output: John
   
   // 4. Asynchronous Operations (using Promises):
@@ -33,6 +26,10 @@ function greet(name) {
       }, 2000); // Simulate a 2-second delay
     });
   }
+  console.log(greet("World")); // Output: Hello, World!
+  console.log(greet("World")); // Output: Hello, World!
+  console.log(greet("World")); // Output: Hello, World!
+  console.log(greet("World")); // Output: Hello, World!
   
   fetchUserData()
     .then(data => {
